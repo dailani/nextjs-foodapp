@@ -32,3 +32,15 @@ You can check out [the Next.js GitHub repository](https://github.com/vercel/next
 The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+
+## Understanding /pages folders
+
+The /pages directory will hold all of the pages for your website, and the index.js file will serve as your homepage at the / URL path. The name of each file in the /pages directory will match the URL path in the browser when your website is visited.
+
+For example, a file with the path /pages/articles.js will have a URL that displays as /articles in the browser. All of this is handled automatically by Next.js.
+
+The only exceptions are index.js files whose URL will be named after the root of the directory they are placed in. For example, the /pages/index.js file serves as the homepage at the / path, while /pages/articles/index.js will become /pages/articles
+
+## Scalable Project link
+
+https://dev.to/alexeagleson/how-to-build-scalable-architecture-for-your-nextjs-project-2pb7#project-setup
