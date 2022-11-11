@@ -1,4 +1,4 @@
-import styles from "./MealCard.module.css";
+import styles from "./styles/MealCard.module.css";
 import Image from "next/image";
 
 export interface IMealCard {
