@@ -7,12 +7,17 @@ import { mockMealCardProps } from "../src/easymealprep/components/cards/MealCard
 import SidebarLayout from "../src/easymealprep/layouts/sidebar/SidebarLayout";
 
 const Home: NextPageWithLayout = () => {
+  const cardsArray: JSX.Element[] = [];
+  for (let i = 1; i <= 4; i++) {
+    cardsArray.push(<MealCard {...mockMealCardProps.base} />);
+  }
+
   return (
     <section className={styles.main}>
       <h1 className={styles.title}>
         Welcome to <a href="https://nextjs.org">Next.js!</a>
       </h1>
-      <MealCard {...mockMealCardProps.base} />
+      <div className="dashboard">{cardsArray.map((card) => card)}</div>
     </section>
   );
 };
