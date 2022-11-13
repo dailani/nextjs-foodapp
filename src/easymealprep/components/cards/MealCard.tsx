@@ -1,4 +1,4 @@
-import styles from "./styles/MealCard.module.css";
+import styles from "./MealCard.module.css";
 import Image from "next/image";
 
 export interface IMealCard {
@@ -27,7 +27,7 @@ const MealCard: React.FC<IMealCard> = ({ tag, title, body, author, time }) => {
           <h4>{title}</h4>
           <p>{body}</p>
         </div>
-      
+
         <div className={styles.card__footer}>
           <div className={styles.user}>
             <Image
