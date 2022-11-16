@@ -45,4 +45,6 @@ The only exceptions are index.js files whose URL will be named after the root of
 
 https://dev.to/alexeagleson/how-to-build-scalable-architecture-for-your-nextjs-project-2pb7#project-setup
 
+## Tailwindtemplates
 
+https://creativedesignsguru.com/blue-modern-nextjs-theme/

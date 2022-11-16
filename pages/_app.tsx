@@ -1,4 +1,3 @@
-import Head from "next/head";
 import type { ReactElement, ReactNode } from "react";
 import type { NextPage } from "next";
 import "../styles/globals.css";
