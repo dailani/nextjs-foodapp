@@ -11,6 +11,11 @@
     "build-storybook": "build-storybook"
   },
   "dependencies": {
+    "@emotion/react": "^11.10.5",
+    "@emotion/styled": "^11.10.5",
+    "@fontsource/roboto": "^4.5.8",
+    "@mui/icons-material": "^5.10.14",
+    "@mui/material": "^5.10.14",
     "@types/lodash": "^4.14.188",
     "@types/node": "18.11.9",
     "@types/react": "18.0.25",
